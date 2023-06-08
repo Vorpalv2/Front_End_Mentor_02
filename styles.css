@@ -37,7 +37,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  height: 700px;
+  /* height: 700px; */
   /* width: 1440px; */
   font-size: 16px;
   display: flex;
@@ -47,6 +47,7 @@ body {
   background-color: hsl(235, 18%, 26%);
 }
 .list {
+  width: 400px;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -54,12 +55,18 @@ body {
   list-style-type: none;
   padding-left: 20px;
 }
-.list li:before {
-  background-image: url("./assets/images/icon-list.svg");
-  display: inline-block;
-  width: 1em; /* Adjust the width as needed */
-  margin-left: -1em; /* Adjust the margin as needed to position the bullet */
+.listItem {
+  background-image: url(./assets/images/icon-list.svg);
+  display: block;
+  background-size: 16px;
+  padding-left: 34px;
+  background-position-y: center;
+  background-position-x: left;
+  background-repeat: no-repeat;
+  width: 28em;
+  margin-left: 0em;
 }
+
 .Heading {
   color: hsl(234, 29%, 20%);
   font-size: 20px;
