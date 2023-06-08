@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 5px purple solid; */
+  border-radius: 20px;
+  align-self: center;
+  margin: 250px;
+  width: 930px;
+  background-color: white;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.left-side {
+  height: 600px;
+  width: 50%;
+  /* border: solid 2px blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+.right-side {
+  height: 600px;
+  width: 50%;
+  /* border: solid 2px green; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  height: 700px;
+  /* width: 1440px; */
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 5px solid black; */
+  background-color: hsl(235, 18%, 26%);
+}
+.list {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: hsl(235, 18%, 26%);
+  list-style-type: none;
+  padding-left: 20px;
+}
+.list li:before {
+  background-image: url("./assets/images/icon-list.svg");
+  display: inline-block;
+  width: 1em; /* Adjust the width as needed */
+  margin-left: -1em; /* Adjust the margin as needed to position the bullet */
+}
+.Heading {
+  color: hsl(234, 29%, 20%);
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  width: 400px;
+  height: 85px;
+}
+.Heading h1 {
+  padding-bottom: 0px;
+}
+.Paragraph {
+  font-weight: 700;
+  font-size: 16px;
+  color: hsl(235, 18%, 26%);
+  align-items: center;
+  width: 400px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+  width: 400px;
+}
+
+.emailExample {
+  margin-top: -20px;
+  border: 2px lightgrey solid;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.emailButton {
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.emailTitle {
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.right-image {
+  height: 90%;
+  width: 84%;
+  margin-left: 20px;
+  padding: 5px;
+  /* border: solid 5px green; */
+  border-radius: 20px;
+
+  background-image: url("./assets/images/illustration-sign-up-desktop.svg");
+}
